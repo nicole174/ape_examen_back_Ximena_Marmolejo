@@ -15,7 +15,6 @@ class UsersController extends Controller
 
     // Vista principal
     public function index() {
-        //$this->usuarios();
 
         return view('index');
     }
@@ -50,7 +49,6 @@ class UsersController extends Controller
             // Agregar el usuario al array de usuarios
             $personas[] = $usuario;
         }
-        //dd($personas[1]);
 
         return json_encode($personas);
     }

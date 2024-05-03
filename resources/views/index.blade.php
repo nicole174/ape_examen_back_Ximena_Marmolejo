@@ -28,10 +28,7 @@
                 </thead>
                 <tbody id="bodyTabla"></tbody>
             </table>
-            {{-- @csrf
-            <input type="hidden" id="idUsuario" value="{{ csrf_token() }}"> --}}
         </div>
-
 
         <script src="{{asset('js/index.js')}}"></script>
         

@@ -1,12 +1,10 @@
 (async function () {
     await usuarios();
- }) ();
+}) ();
 
 async function usuarios() {
 
     const token = document.head.querySelector("[name~=csrf-token][content]").content;
-
-    //let token = document.getElementById("idUsuario").value;
 
     await fetch('/usuarios',
     {
